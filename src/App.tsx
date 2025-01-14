@@ -5,7 +5,7 @@ import './index.css'; // Ensure Tailwind CSS is applied
 
 const App: React.FC = () => {
   return (
-    <div className="App bg-blue-500 min-h-screen flex justify-center items-center">
+    <div className="">
       <RandomFact /> {/* Render the RandomFact component here */}
     </div>
   );
